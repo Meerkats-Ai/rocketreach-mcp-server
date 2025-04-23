@@ -1,0 +1,39 @@
+{
+  "name": "rocketreach-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for RocketReach API integration. Features include finding professional and personal emails, enriching company data, and finding phone numbers.",
+  "type": "module",
+  "bin": {
+    "rocketreach-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [
+    "mcp",
+    "rocketreach",
+    "email-finder",
+    "phone-finder",
+    "company-enrichment"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.4.1",
+    "axios": "^1.6.2",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
