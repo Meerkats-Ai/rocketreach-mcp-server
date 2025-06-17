@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/meerkats-ai-rocketreach-mcp-server-badge.png)](https://mseep.ai/app/meerkats-ai-rocketreach-mcp-server)
+
 # RocketReach MCP Server
 
 This is a Model Context Protocol (MCP) server that integrates with the RocketReach API to provide email finding, phone number finding, and company enrichment capabilities.
